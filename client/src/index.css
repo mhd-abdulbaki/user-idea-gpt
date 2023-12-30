@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-start {
+    @apply flex justify-start items-center;
+  }
+
+  .card-wrapper {
+    @apply bg-light-900 dark:dark-gradient shadow-light-100
+  }
+
+
+
+  .btn-tertiary {
+    @apply bg-light-700 dark:bg-dark-300 !important;
+  }
+
+  .markdown {
+    @apply max-w-full prose dark:prose-p:text-light-700 dark:text-dark-300;
+  }
+
+  .primary-gradient {
+    background: linear-gradient(93deg, rgb(29 78 216) -13.95%, rgb(107, 29, 216) 90.54%);
+
+  }
+
+
+  .no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent
+  }
+
+  .primary-bg-color {
+    @apply bg-white dark:bg-gray-900
+  }
+}
+
+.primary-text-gradient {
+  background: linear-gradient(129deg, rgb(29 78 216) -13.95%, rgb(107, 29, 216) 90.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-radius: 2px;
+}
