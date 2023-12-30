@@ -33,7 +33,7 @@ Before you begin, ensure you have installed the following:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/mhd-abdulbaki/user-idea-gpt.git
    ```
 
 ### Project Structure
